@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+
+nav> div{
+    padding-top: 1vh;
+    font-size: large;
+    display: grid  ;
+    /* justify-content: center; */
+        /* grid-template-columns: repeat(6,1fr); */
+    /* grid-template-columns: 3fr  4fr 3fr; */
+    grid-template-columns: 30vw 40vw 30vw;
+    align-items: center;
+    background-color: #ffffff;
+}
+.nodeco{
+    text-decoration: none;
+}
+.navmain{
+    color: grey;
+    padding-left: 10vw;
+    padding: 5%;
+        font-size: 1vw;
+
+
+}
+.navlogo{
+    display: flex;
+    font-size: 3vw;
+    color: black;
+    padding-left: 5vw;
+}   
+.username{
+    text-align: center;
+    color: #088de0;
+    border: 0.5vw solid none;
+    margin-left: 32%;
+    margin-right: 32%;
+    /* padding: 5%; */
+    padding: 1vw 2vw;
+    border-radius: 2vh;
+    background-color:#e7f7ff;
+    font-size: 1.2vw;
+    /* height: 1vw;
+    width: 1vw; */
+
+}
+.container{
+        min-height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     gap: 5vw;
+}
+.left{
+     flex-basis:   50%  ;
+     padding-left: 20vw;
+
+}
+.right{
+    flex-basis: 50%;
+}
+
+.textmain>h1{
+    font-size: 3vw;
+    line-height:65px;
+}
+.left>p{
+    padding-top: 1vh;
+    color: grey;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.button1{
+    display: grid;
+    text-align: center;
+    border: 1px solid none;
+margin-top: 5rem;
+/* margin-left: 7rem; */
+background-color: #088de0;
+color: white;
+    padding: 2vw 2vw;
+border-radius: 2vh;
+margin-right: 15vw;
+    animation-delay: 1s;
+}
+
+.imageleft{
+    padding: 0;
+    margin: 0;
+    width: 30vw;
+    height: 50vh;
+}
+ .upanimation{
+    animation: normal;
+    animation-delay: 1s;
+      transition: transform 0.3s ease-out;
+ }
+.upanimation:hover{
+ color: black;
+ background-color:#e7f7ff;
+ border-radius: 20vh;
+ font-size: large; 
+  /* justify-content: center; */
+  /* align-items: center;    */
+    
+}
+ /* some practice here 
+.navlogo{
+} 
+
+
+ nav > ul{
+ display: inline-flex;
+ justify-content: center center;
+ grid-template-columns: 1fr 1fr 1fr;
+ display: flex;
+} 
+
+nav{
+
+    
+}
+ 
+.nav{
+    display: inline;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    al 
+} */
+ 
+.button1:hover{
+     color: #088de0;
+ background-color: whitesmoke;
+ border-radius: 20vh;
+ font-size: 2.5vh; 
+ text-overflow: 1px;
+
+}
